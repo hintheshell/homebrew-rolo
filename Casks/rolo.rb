@@ -4,7 +4,7 @@ cask "rolo" do
 
   url "https://github.com/hintheshell/rolo/releases/download/v#{version}/Rolo-#{version}.dmg"
   name "Rolo"
-  desc "Native macOS launcher based on Tinycast"
+  desc "Native launcher based on Tinycast"
   homepage "https://github.com/hintheshell/rolo"
 
   depends_on macos: :tahoe
