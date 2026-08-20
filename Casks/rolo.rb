@@ -1,6 +1,6 @@
 cask "rolo" do
   version "0.1.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "6957de2caf9e49124eb496bb48e10ebf6cf945e015d748d57d8b4dc197d57427"
 
   url "https://github.com/hintheshell/rolo/releases/download/v#{version}/Rolo-#{version}.dmg"
   name "Rolo"
