@@ -7,6 +7,7 @@ cask "rolo" do
   desc "Native launcher based on Tinycast"
   homepage "https://github.com/hintheshell/rolo"
 
+  auto_updates true
   depends_on macos: :tahoe
 
   app "Rolo.app"
