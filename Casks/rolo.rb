@@ -7,6 +7,11 @@ cask "rolo" do
   desc "Native launcher based on Tinycast"
   homepage "https://github.com/hintheshell/rolo"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   auto_updates true
   depends_on macos: :tahoe
 
